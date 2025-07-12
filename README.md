@@ -12,7 +12,7 @@ Activate it with `source .venv/bin/activate`On Linux/Mac Or Activate it with `.v
 `uvx pyinstaller -v` should return installed `pyinstaller` version      
 
 `uvx pyinstaller --onefile --nowindow --clean --name <app_name> <your_script.py>` should get the job done with a single bundled executable
-
+`--onefile` : Pack in a single file 
 `--nowindow`: Hides console window (used for GUI or silent apps)
 
 `--clean`: Clears old build cache
@@ -20,4 +20,3 @@ Activate it with `source .venv/bin/activate`On Linux/Mac Or Activate it with `.v
 `--name <app_name>`: Sets custom name for the .exe file
 
 All are optional, for cleaner/specific builds.
-
